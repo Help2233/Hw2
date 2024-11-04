@@ -42,6 +42,8 @@ public class Main {
         out.println("Разница бойцов в весе составляет " + weightDifference + "кг " );
         var remainder = boxer2 % boxer1;
         out.println("Остаток деления между вессами " + remainder);
+        var rEZAILT = boxer2 * boxer1;
+        out.println("Остаток деления между вессами " + rEZAILT);
 
         var sharedHours = 640;
         var workingDay = 8;
