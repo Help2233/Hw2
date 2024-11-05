@@ -3,7 +3,6 @@ import static java.lang.System.setOut;
 
 public class Main {
     public static void main(String[] args) {
-        out.println("Hello world!");
         var dog = 8.0;
         var cat = 3.6;
         var paper = 763789;
@@ -42,14 +41,12 @@ public class Main {
         out.println("Разница бойцов в весе составляет " + weightDifference + "кг " );
         var remainder = boxer2 % boxer1;
         out.println("Остаток деления между вессами " + remainder);
-        var rEZAILT = boxer2 * boxer1;
-        out.println("Остаток деления между вессами " + rEZAILT);
 
         var sharedHours = 640;
         var workingDay = 8;
         var totalEmployees = sharedHours / workingDay;
-        out.println("Всего работников в компании " + totalEmployees + " человек");
-        out.println("Если в компании работает " + totalEmployees + 94 + " человек, то всего" + sharedHours /(totalEmployees + 94) + " часов работы может быть поделено между сотрудниками");
+        out.println("Всего работников в компании " + totalEmployees + " человек.");
+        out.println("Если в компании работает " + (totalEmployees + 94) + " человек, то всего " + sharedHours /(totalEmployees + 94) + " часов работы может быть поделено между сотрудниками.");
 
 
     }
