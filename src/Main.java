@@ -45,7 +45,7 @@ public class Main {
         var sharedHours = 640;
         var workingDay = 8;
         var totalEmployees = sharedHours / workingDay;
-        out.println("Всего работников в компании " + totalEmployees + " человек.");
+        out.println("Всего работников в компании " + totalEmployees + " человек");
         out.println("Если в компании работает " + (totalEmployees + 94) + " человек, то всего " + sharedHours /(totalEmployees + 94) + " часов работы может быть поделено между сотрудниками.");
 
 
