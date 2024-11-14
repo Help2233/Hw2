@@ -49,5 +49,6 @@ public class Main {
         out.println("Если в компании работает " + (totalEmployees + 94) + " человек, то всего " + sharedHours /(totalEmployees + 94) + " часов работы может быть поделено между сотрудниками.");
 
 
+
     }
 }
